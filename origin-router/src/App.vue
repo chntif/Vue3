@@ -5,7 +5,6 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <h1>app.vue main.js index.html之间的关系</h1>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
@@ -17,8 +16,8 @@ import HelloWorld from './components/HelloWorld.vue'
       </nav>
     </div>
   </header>
-  <!-- <h2>分割线</h2> -->
-  <RouterView style="background-color: yellow;" />
+
+  <RouterView />
 </template>
 
 <style scoped>
